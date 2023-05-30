@@ -77,7 +77,7 @@ model.save("chatbot_model.h5")
 
 # Function to get real-time weather information
 def get_weather(city):
-    api_key = "77de4aae6c6e4509f65077dc57147205"  # Replace with your actual API key
+    api_key = "77de4aae6c6e4509f65077dc57147205"  
     base_url = "https://api.openweathermap.org/data/2.5/weather"
     params = {
         "q": city,
